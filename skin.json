@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "id": "biscuit",
+    "name": "Biscuit (Deprecated)",
+    "author": "OpenSB developers",
+    "description": "The former default OpenSB frontend from 2023-2024.",
+    "site": "squarebracket",
+    "themes": [
+      {
+        "id": "default",
+        "name": "Default",
+        "description": "The default OpenSB user experience.",
+        "author": "OpenSB developers"
+      },
+      {
+        "id": "dark",
+        "name": "Dark",
+        "description": "The dark theme of the default OpenSB user experience.",
+        "author": "OpenSB developers"
+      },
+      {
+        "id": "soretro",
+        "name": "So Retro",
+        "description": "The July-August 2024 version of Biscuit.",
+        "author": "OpenSB developers"
+      }
+    ]
+  }
+}
