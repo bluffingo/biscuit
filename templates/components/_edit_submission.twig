@@ -24,8 +24,11 @@
                 </div>
                 <div>
                     <a href="/edit?v={{ submission.id }}" class="button button-secondary">Edit</a>
+                    <a href="/feature?v={{ submission.id }}"
+                       onclick="return confirm('Are you sure you want to feature this upload?');"
+                       class="button button-success">Feature on profile</a>
                     <a href="/delete?v={{ submission.id }}"
-                       onclick="return confirm('Are you sure?');"
+                       onclick="return confirm('Are you sure you want to delete this upload?');"
                        class="button button-danger">Delete</a>
                 </div>
             </td>

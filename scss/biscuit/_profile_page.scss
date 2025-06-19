@@ -80,3 +80,25 @@
     margin: auto;
   }
 }
+
+.profile-featured-submission {
+  text-align: center;
+
+  .profile-featured-submission-title {
+    margin-top: 6px;
+    a {
+      font-weight: normal;
+    }
+  }
+
+  /* will this fuck up with wide thumbnails? */
+  img {
+    height: 200px;
+  }
+}
+
+// early version of section-title from mid-2023 that was used on biscuit's profiles???
+.text-title {
+  font-size: 18px; // was 24px;
+  margin-bottom: 5px;
+}
